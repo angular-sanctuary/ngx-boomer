@@ -1,13 +1,17 @@
 {
   "name": "ngx-boomer",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
+  "publishConfig": {
+    "access": "public"
+  },
   "description": "Update or add schematics keys in angular.json for Angular projects via npx.",
   "bin": {
     "ngx-boomer": "cli.js"
