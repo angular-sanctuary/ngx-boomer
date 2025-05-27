@@ -12,14 +12,14 @@ Using `ng update` towards Angular v20 will update your angular.json schematics r
 
 ```json
 {
-    '@schematics/angular:component': { type: 'component' },
-    '@schematics/angular:directive': { type: 'directive' },
-    '@schematics/angular:service': { type: 'service' },
-    '@schematics/angular:guard': { typeSeparator: '.' },
-    '@schematics/angular:interceptor': { typeSeparator: '.' },
-    '@schematics/angular:module': { typeSeparator: '.' },
-    '@schematics/angular:pipe': { typeSeparator: '.' },
-    '@schematics/angular:resolver': { typeSeparator: '.' },
+   "@schematics/angular:component": { "type": "component" },
+   "@schematics/angular:directive": { "type": "directive" },
+   "@schematics/angular:service": { "type": "service" },
+   "@schematics/angular:guard": { "typeSeparator": "." },
+   "@schematics/angular:interceptor": { "typeSeparator": "." },
+   "@schematics/angular:module": { "typeSeparator": "." },
+   "@schematics/angular:pipe": { "typeSeparator": "." },
+   "@schematics/angular:resolver": { "typeSeparator": "." }
 }
 ```
 
