@@ -34,8 +34,6 @@ if (!angularJson.schematics) {
 }
 
 for (const [key, value] of Object.entries(SCHEMATICS_TO_ADD)) {
-  console.log(key, value);
-  console.log(angularJson.schematics[key]);
   angularJson.schematics[key] = {
     ...(angularJson.schematics[key] || {}),
     ...value,
