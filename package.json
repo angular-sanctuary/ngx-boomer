@@ -1,14 +1,20 @@
 {
   "name": "ngx-boomer",
-  "version": "1.1.2",
+  "version": "1.2.2",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "publish": "npm publish"
   },
   "keywords": [],
-  "author": "",
-  "license": "ISC",
+  "author": {
+    "name": "Gerome Grignon",
+    "url": "https://github.com/geromegrignon"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/angular-sanctuary/ngx-boomer"
+  },
+  "license": "MIT",
   "publishConfig": {
     "access": "public"
   },
